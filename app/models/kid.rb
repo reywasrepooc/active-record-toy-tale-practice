@@ -11,7 +11,7 @@ class Kid < ActiveRecord::Base
   end
 
   def throw_out(toy)
-
+    purchases.find_by(toy_id: toy.id).quantity - 1
   end
 
   def throw_all_out(toy)
