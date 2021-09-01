@@ -23,4 +23,11 @@ puts "Creating purchases..."
 # ***********************************************************
 # Create Purchases Here
 
+Purchase.create(quantity: 4, kid: andy, toy: buzz)
+Purchase.create(quantity: 6, kid: andy, toy: woody)
+Purchase.create(quantity: 1, kid: sid, toy: bopeep)
+Purchase.create(quantity: 2, kid: sid, toy: slinky)
+Purchase.create(quantity: 8, kid: andy, toy: rex)
+Purchase.create(quantity: 3, kid: sid, toy: potato)
+
 puts "Seeding done!"
